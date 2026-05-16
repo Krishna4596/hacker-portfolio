@@ -249,7 +249,7 @@ function App() {
           <a href="https://github.com/Krishna4596" target="_blank" rel="noreferrer" className="border border-gray-700 text-white bg-darkerBg px-6 py-2 hover:border-[#00ffff] hover:text-[#00ffff] hover:shadow-[0_0_10px_rgba(0,255,255,0.5)] transition-all duration-300 font-bold tracking-widest cursor-none text-sm">
             [ GitHub ]
           </a>
-          <a href="https://linkedin.com/in/krishna-prajapat" target="_blank" rel="noreferrer" className="border border-gray-700 text-white bg-darkerBg px-6 py-2 hover:border-[#00ffff] hover:text-[#00ffff] hover:shadow-[0_0_10px_rgba(0,255,255,0.5)] transition-all duration-300 font-bold tracking-widest cursor-none text-sm">
+          <a href="https://www.linkedin.com/in/krishna-prajapat-474089338/" target="_blank" rel="noreferrer" className="border border-gray-700 text-white bg-darkerBg px-6 py-2 hover:border-[#00ffff] hover:text-[#00ffff] hover:shadow-[0_0_10px_rgba(0,255,255,0.5)] transition-all duration-300 font-bold tracking-widest cursor-none text-sm">
             [ LinkedIn ]
           </a>
           <a href="mailto:krishprajapat9977@gmail.com" className="border border-gray-700 text-white bg-darkerBg px-6 py-2 hover:border-[#00ffff] hover:text-[#00ffff] hover:shadow-[0_0_10px_rgba(0,255,255,0.5)] transition-all duration-300 font-bold tracking-widest cursor-none text-sm">
