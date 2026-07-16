@@ -67,18 +67,22 @@ function App() {
         className={`fixed top-0 left-0 w-8 h-8 border rounded-full pointer-events-none z-50 hidden md:block transition-all duration-150 ease-out ${isHoveringLink ? 'scale-[1.8] border-[#00ffff] shadow-[0_0_15px_rgba(0,255,255,0.6)]' : 'scale-100 border-hackerGreen shadow-[0_0_10px_rgba(0,255,0,0.5)]'}`}
       ></div>
 
-      {/* --- HERO SECTION --- */}
+       {/* --- HERO SECTION --- */}
       <div className="min-h-[80vh] flex flex-col items-center justify-center text-center w-full max-w-4xl border-b border-gray-800">
         <h1 className="text-4xl md:text-6xl font-bold text-hackerGreen mb-4 drop-shadow-[0_0_10px_rgba(0,255,0,0.8)]">
           &gt; Krishna Prajapat_
         </h1>
         <p className="text-lg md:text-xl text-gray-400 mb-8 max-w-2xl leading-relaxed">
-          Full-Stack (MERN) Developer & Application Security Enthusiast. 
-          I don't just write code; I break it, patch it, and make it bulletproof.
+          <span className="text-white font-bold">Jr. Penetration Tester & MERN Stack Developer.</span> <br/>
+          Bridging the gap between building robust applications and aggressively securing them from the ground up.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <a href="#projects" className="border border-hackerGreen text-hackerGreen px-6 py-2 hover:bg-hackerGreen hover:text-black transition-all duration-300 font-bold tracking-widest cursor-none">
             VIEW_PROJECTS
+          </a>
+          {/* New VIEW_CERTS Button in Neon Cyan */}
+          <a href="#certifications" className="border border-[#00ffff] text-[#00ffff] px-6 py-2 hover:bg-[#00ffff] hover:shadow-[0_0_10px_rgba(0,255,255,0.8)] hover:text-black transition-all duration-300 font-bold tracking-widest cursor-none">
+            VIEW_CERTS     
           </a>
           <a href="#contact" className="border border-gray-500 text-gray-300 px-6 py-2 hover:border-white hover:text-white transition-all duration-300 font-bold tracking-widest cursor-none">
             CONTACT_ME
@@ -206,12 +210,23 @@ function App() {
         </div>
       </div>
 
-      {/* --- CERTIFICATIONS SECTION --- */}
-      <div className="w-full max-w-5xl py-16 mx-auto">
+     {/* --- CERTIFICATIONS SECTION --- */}
+      <div id="certifications" className="w-full max-w-5xl py-16 mx-auto border-b border-gray-800">
         <h2 className="text-3xl font-bold text-hackerGreen mb-8 border-l-4 border-hackerGreen pl-4">
           ./Security_Clearances
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          
+          {/* Main THM Certificate with special Cyan Glow */}
+          <div className="h-full flex flex-col bg-darkerBg border border-[#00ffff] shadow-[0_0_8px_rgba(0,255,255,0.15)] p-5 rounded hover:border-hackerGreen hover:shadow-[0_0_12px_rgba(0,255,0,0.4)] transition-all duration-300 cursor-none relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-[#00ffff] text-black text-[10px] font-bold px-2 py-1 tracking-wider">NEW</div>
+            <h3 className="text-lg font-bold text-white mb-1 mt-2">Jr Penetration Tester</h3>
+            <p className="flex-1 text-gray-400 text-sm mb-3">TryHackMe (94+ Hours)</p>
+            <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-52EZYVH0BU.pdf" target="_blank" rel="noreferrer" className="text-[#00ffff] hover:text-hackerGreen hover:drop-shadow-[0_0_5px_rgba(0,255,0,0.8)] transition-all duration-300 text-sm font-bold block mt-auto cursor-none w-fit">
+              [ Verify_Credential ]
+            </a>
+          </div>
+
           <div className="h-full flex flex-col bg-darkerBg border border-gray-800 p-5 rounded hover:border-hackerGreen transition-all duration-300 cursor-none">
             <h3 className="text-lg font-bold text-white mb-1">Ethical Hacking</h3>
             <p className="flex-1 text-gray-400 text-sm mb-3">Tutedude</p>
@@ -219,6 +234,7 @@ function App() {
               [ Verify_Credential ]
             </a>
           </div>
+
           <div className="h-full flex flex-col bg-darkerBg border border-gray-800 p-5 rounded hover:border-hackerGreen transition-all duration-300 cursor-none">
             <h3 className="text-lg font-bold text-white mb-1">Programming Basics</h3>
             <p className="flex-1 text-gray-400 text-sm mb-3">Great Learning Academy</p>
@@ -226,13 +242,7 @@ function App() {
               [ Verify_Credential ]
             </a>
           </div>
-          <div className="h-full flex flex-col bg-darkerBg border border-gray-800 p-5 rounded hover:border-hackerGreen transition-all duration-300 cursor-none">
-            <h3 className="text-lg font-bold text-white mb-1">Google Analytics</h3>
-            <p className="flex-1 text-gray-400 text-sm mb-3">Great Learning Academy</p>
-            <a href="https://www.mygreatlearning.com/certificate/OFYRQEAY" target="_blank" rel="noreferrer" className="text-hackerGreen hover:text-[#00ffff] hover:drop-shadow-[0_0_5px_rgba(0,255,255,0.8)] transition-all duration-300 text-sm font-bold block mt-auto cursor-none w-fit">
-              [ Verify_Credential ]
-            </a>
-          </div>
+          
         </div>
       </div>
 
@@ -249,7 +259,7 @@ function App() {
           <a href="https://github.com/Krishna4596" target="_blank" rel="noreferrer" className="border border-gray-700 text-white bg-darkerBg px-6 py-2 hover:border-[#00ffff] hover:text-[#00ffff] hover:shadow-[0_0_10px_rgba(0,255,255,0.5)] transition-all duration-300 font-bold tracking-widest cursor-none text-sm">
             [ GitHub ]
           </a>
-          <a href="https://www.linkedin.com/in/krishna-prajapat-474089338/" target="_blank" rel="noreferrer" className="border border-gray-700 text-white bg-darkerBg px-6 py-2 hover:border-[#00ffff] hover:text-[#00ffff] hover:shadow-[0_0_10px_rgba(0,255,255,0.5)] transition-all duration-300 font-bold tracking-widest cursor-none text-sm">
+          <a href="https://www.linkedin.com/in/krishnaprajapat" target="_blank" rel="noreferrer" className="border border-gray-700 text-white bg-darkerBg px-6 py-2 hover:border-[#00ffff] hover:text-[#00ffff] hover:shadow-[0_0_10px_rgba(0,255,255,0.5)] transition-all duration-300 font-bold tracking-widest cursor-none text-sm">
             [ LinkedIn ]
           </a>
           <a href="mailto:krishprajapat9977@gmail.com" className="border border-gray-700 text-white bg-darkerBg px-6 py-2 hover:border-[#00ffff] hover:text-[#00ffff] hover:shadow-[0_0_10px_rgba(0,255,255,0.5)] transition-all duration-300 font-bold tracking-widest cursor-none text-sm">
