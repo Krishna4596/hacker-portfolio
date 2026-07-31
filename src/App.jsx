@@ -112,7 +112,7 @@ function App() {
               <li className="h-fit hover-glow border border-gray-700 bg-black px-2 py-1.5 hover:border-[#00ffff] hover:text-[#00ffff] hover:shadow-[0_0_8px_rgba(0,255,255,0.6)] transition-all duration-300 cursor-none flex items-center">Wifi Scanning</li>
             </ul>
             <div className="text-hackerGreen font-bold mt-6 w-full text-center pt-3 border-t border-gray-800">
-              &gt; 68 PortSwigger Labs Solved
+              &gt; 90+ PortSwigger Labs Solved
             </div>
           </div>
 
