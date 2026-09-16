@@ -48,7 +48,7 @@ function App() {
       {/* Main Cursor (Switches between Green Dot and Neon Cyan Hand) */}
       <div 
         ref={mainCursorRef}
-        className="fixed top-0 left-0 pointer-events-none z-50 hidden  items-center justify-center transition-transform duration-100"
+        className="fixed top-0 left-0 pointer-events-none z-50 flex  items-center justify-center transition-transform duration-100"
       >
         {isHoveringLink ? (
           // Custom Neon Cyan Hand Pointer SVG (Only for links/buttons)
