@@ -48,7 +48,7 @@ function App() {
       {/* Main Cursor (Switches between Green Dot and Neon Cyan Hand) */}
       <div 
         ref={mainCursorRef}
-        className="fixed top-0 left-0 pointer-events-none z-50 hidden md:flex items-center justify-center transition-transform duration-100"
+        className="fixed top-0 left-0 pointer-events-none z-50 hidden  items-center justify-center transition-transform duration-100"
       >
         {isHoveringLink ? (
           // Custom Neon Cyan Hand Pointer SVG (Only for links/buttons)
@@ -64,7 +64,7 @@ function App() {
       {/* Trailing Circle */}
       <div 
         ref={trailingCursorRef}
-        className={`fixed top-0 left-0 w-8 h-8 border rounded-full pointer-events-none z-50 hidden md:block transition-all duration-150 ease-out ${isHoveringLink ? 'scale-[1.8] border-[#00ffff] shadow-[0_0_15px_rgba(0,255,255,0.6)]' : 'scale-100 border-hackerGreen shadow-[0_0_10px_rgba(0,255,0,0.5)]'}`}
+        className={`fixed top-0 left-0 w-8 h-8 border rounded-full pointer-events-none z-50 block transition-all duration-150 ease-out ${isHoveringLink ? 'scale-[1.8] border-[#00ffff] shadow-[0_0_15px_rgba(0,255,255,0.6)]' : 'scale-100 border-hackerGreen shadow-[0_0_10px_rgba(0,255,0,0.5)]'}`}
       ></div>
 
        {/* --- HERO SECTION --- */}
