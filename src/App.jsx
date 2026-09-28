@@ -245,7 +245,7 @@ function App() {
           
           {/* Main THM Certificate with special Cyan Glow */}
           <div className="h-full flex flex-col bg-darkerBg border border-[#00ffff] shadow-[0_0_8px_rgba(0,255,255,0.15)] p-5 rounded hover:border-hackerGreen hover:shadow-[0_0_12px_rgba(0,255,0,0.4)] transition-all duration-300 cursor-none relative overflow-hidden">
-            <div className="absolute top-0 right-0 bg-[#00ffff] text-black text-[10px] font-bold px-2 py-1 tracking-wider">NEW</div>
+            {/* <div className="absolute top-0 right-0 bg-[#00ffff] text-black text-[10px] font-bold px-2 py-1 tracking-wider">NEW</div> */}
             <h3 className="text-lg font-bold text-white mb-1 mt-2">Jr Penetration Tester</h3>
             <p className="flex-1 text-gray-400 text-sm mb-3">TryHackMe (94+ Hours)</p>
             <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-52EZYVH0BU.pdf" target="_blank" rel="noreferrer" className="text-[#00ffff] hover:text-hackerGreen hover:drop-shadow-[0_0_5px_rgba(0,255,0,0.8)] transition-all duration-300 text-sm font-bold block mt-auto cursor-none w-fit">
