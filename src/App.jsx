@@ -182,6 +182,32 @@ function App() {
             </a>
           </div>
           {/* --- END NAUKRI BUG CARD --- */}
+
+          {/* --- TOP HIGHLIGHT 2: FAMPAY CTF (NEW WITH GREEN GLOW) --- */}
+          <div className="h-full flex flex-col bg-darkerBg border border-hackerGreen/50 shadow-[0_0_12px_rgba(0,255,0,0.15)] p-6 rounded hover:border-hackerGreen hover:shadow-[0_0_15px_rgba(0,255,0,0.4)] transition-all duration-300 cursor-none relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-hackerGreen text-black text-[10px] font-bold px-3 py-1 tracking-wider uppercase">
+              100%_SOLVED
+            </div>
+            
+            <h3 className="text-xl font-bold text-white mb-2 flex items-center">
+              <span className="text-hackerGreen mr-2">[+]</span> FamPay NexaVault CTF
+            </h3>
+            
+            <p className="flex-1 text-gray-400 mb-4 text-sm">
+              <span className="text-white font-semibold">Achievement:</span> Solved all 6/6 flags with 1850 points (Rank 70th). Mastered manual AWS SSRF (IMDSv2) exploitation and Frida native signature bypass (`libfam.so`).
+            </p>
+            
+            <div className="flex gap-2 mb-4 flex-wrap">
+              <span className="hover-glow h-fit text-xs border border-green-900 bg-black px-2 py-1.5 text-hackerGreen hover:border-hackerGreen hover:shadow-[0_0_8px_rgba(0,255,0,0.6)] transition-all duration-300 cursor-none flex items-center">Cloud/SSRF</span>
+              <span className="hover-glow h-fit text-xs border border-green-900 bg-black px-2 py-1.5 text-hackerGreen hover:border-hackerGreen hover:shadow-[0_0_8px_rgba(0,255,0,0.6)] transition-all duration-300 cursor-none flex items-center">Android/Frida</span>
+              <span className="hover-glow h-fit text-xs border border-green-900 bg-black px-2 py-1.5 text-hackerGreen hover:border-hackerGreen hover:shadow-[0_0_8px_rgba(0,255,0,0.6)] transition-all duration-300 cursor-none flex items-center">Firebase/Web</span>
+            </div>
+            
+            <a href="https://github.com/Krishna4596/FAM-CTF-Security-CTF-Write-ups" target="_blank" rel="noreferrer" className="mt-auto text-hackerGreen hover:text-[#00ffff] hover:drop-shadow-[0_0_8px_rgba(0,255,255,0.8)] transition-all duration-300 text-sm font-bold cursor-none inline-block w-fit">
+              [ View_Write_Up ]
+            </a>
+          </div>
+          
           <div className="h-full flex flex-col bg-darkerBg border border-gray-800 p-6 rounded hover:border-hackerGreen transition-all duration-300 cursor-none">
             <h3 className="text-xl font-bold text-white mb-2">1. AVCP (Virtual Classroom)</h3>
             <p className="flex-1 text-gray-400 mb-4 text-sm">Advanced Virtual Classroom Platform with WebRTC, Socket.io, and strict JWT/RBAC security.</p>
